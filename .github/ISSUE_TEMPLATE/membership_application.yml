@@ -1,0 +1,123 @@
+name: Request Membership
+description: Apply to join Pompeu Quantitative Economics
+title: "Membership Request: "
+labels: ["membership", "pending-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the following form to request membership in our organization.
+
+  - type: input
+    id: full_name
+    attributes:
+      label: Full name
+      placeholder: "Your full name"
+    validations:
+      required: true
+
+  - type: input
+    id: email
+    attributes:
+      label: Email
+      description: Personal email preferred
+      placeholder: "your@email.com"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: studies
+    attributes:
+      label: Studies
+      options:
+        - Economics
+        - International Business Economics
+        - Mathematical Engineering in Data Science
+        - Other (specify in comments)
+        - I don't study at UPF (specify in comments)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: academic_year
+    attributes:
+      label: Current academic year
+      options:
+        - 4th
+        - 3rd
+        - 2nd
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why join / Motivation
+      placeholder: "Tell us why you want to join PQE"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: interests
+    attributes:
+      label: Interests
+      options:
+        - label: Finance
+        - label: Data Science
+        - label: Trading
+        - label: Energy
+        - label: Economics
+        - label: Mathematics
+        - label: Quantitative Research
+        - label: Other
+
+  - type: markdown
+    attributes:
+      value: |
+        ## Previous Experience
+
+  - type: dropdown
+    id: coding_level
+    attributes:
+      label: Coding
+      options:
+        - No experience
+        - Beginner (some coursework)
+        - Intermediate (personal projects)
+        - Advanced (professional/research experience)
+
+  - type: dropdown
+    id: github_level
+    attributes:
+      label: GitHub
+      options:
+        - No experience
+        - Beginner (cloned repos)
+        - Intermediate (commits, branches)
+        - Advanced (PRs, reviews, maintained projects)
+
+  - type: textarea
+    id: other_experience
+    attributes:
+      label: Other relevant experience
+      placeholder: "e.g., internships, research, competitions, certifications"
+
+  - type: dropdown
+    id: mqa_status
+    attributes:
+      label: MQA Status
+      description: Metodes Quantitatius Avançats
+      options:
+        - Currently pursuing MQA (enrolled in MQA courses this academic year)
+        - I'm interested in pursuing MQA
+        - Doesn't apply
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_info
+    attributes:
+      label: Anything else you want to share about yourself?
+      description: Optional
+      placeholder: "Hobbies, career goals, specific projects you're interested in..."
