@@ -1,6 +1,6 @@
 # Getting Started with PQE
 
-This short guide covers everything you need to join the Pompeu Quantitative Economics community and start contributing.
+This short guide covers the basics you need to join the PQE GitHub community and start contributing.
 
 ---
 
@@ -14,11 +14,11 @@ PQE is open to students taking or planning to take the Advanced Quantitative Met
 
 ## 2. GitHub Profile
 
-Your GitHub profile is your technical identity. Recruiters, collaborators, and researchers will see it. Take five minutes to set it up properly.
+Your GitHub profile is your technical identity. I recommend taking five minutes to set it up properly.
 
 ### Essential Setup
 
-1. **Profile photo** — Use a clear, professional headshot. This builds trust and makes collaboration more personal.
+1. **Profile photo** — Use a clear headshot. 
 
 2. **Name** — Your full name.
 
@@ -28,20 +28,20 @@ Your GitHub profile is your technical identity. Recruiters, collaborators, and r
 
 5. **Location** — Barcelona, Spain (or your actual location).
 
-6. **Social accounts** — We recommend linking your LinkedIn profile, and any other you want to share.
+6. **Social accounts** — I recommend linking your LinkedIn profile, and any other you want to share.
 
-7. **Organizations** — PQE once you're a member.
+7. **Organizations** — PQE once you're a member (automatic).
 
-### Profile README (Very Optional)
+### Profile README (Very optional)
 
-Create a repository named exactly after your username (e.g., `username/username`) with a `README.md`. This appears on your profile page. Keep it brief:
+You can create a repository named exactly after your username (e.g., `username/username`) with a `README.md`. This appears on your profile page:
 
 ```markdown
 ## About Me
 
-Student at Universitat Pompeu Fabra.
+Student at Universitat Pompeu Fabra. 
 
-**Interests:** Econometrics, derivatives, machine learning ...
+**Interests:** Derivatives, machine learning, tennis, olive oil, ...
 
 **Currently working on:** [Brief description]
 
@@ -59,7 +59,7 @@ When you create repositories:
 
 ## 3. How Git and GitHub Work
 
-Git is version control. GitHub is where you host and collaborate on Git repositories. Understanding both is essential.
+Git is version control. GitHub is where you host and collaborate on Git repositories.
 
 ### Core Concepts
 
@@ -74,7 +74,7 @@ Git is version control. GitHub is where you host and collaborate on Git reposito
 
 ### Learning Resources
 
-GitHub's own documentation is excellent. Read these to gain familiarity:
+GitHub's own documentation is excellent. You can read these to gain familiarity:
 
 1. **[Git Handbook](https://docs.github.com/en/get-started/using-git/about-git)** — Core concepts
 
@@ -164,7 +164,7 @@ ssh -T git@github.com
 
 ### IDE (Integrated Development Environment)
 
-We recommend **Visual Studio Code**, or **Cursor** for AI-assisted coding:
+I recommend **Visual Studio Code**, or **Cursor** for AI-assisted coding:
 
 1. Download from [code.visualstudio.com](https://code.visualstudio.com/)
 
@@ -176,7 +176,7 @@ We recommend **Visual Studio Code**, or **Cursor** for AI-assisted coding:
 
 ### Python Environment
 
-**Install Python 3.10+** from [python.org](https://www.python.org/downloads/) or via your package manager.
+**Install Python+** from [python.org](https://www.python.org/downloads/) or via your package manager.
 
 **Create virtual environments for each project:**
 ```bash
@@ -201,9 +201,9 @@ Always work in a virtual environment. Never install packages globally.
 
 ### Discussions
 
-Questions, ideas, and conversations happen in [GitHub Discussions](https://github.com/orgs/pqe-upf/discussions).
+Questions, ideas, and conversations are encouraged to happen in [GitHub Discussions](https://github.com/orgs/pqe-upf/discussions).
 
-- **Q&A** — Technical questions about coursework, code, or careers
+- **Q&A**
 - **Ideas** — Propose new projects, events, or improvements
 - **General** — Everything else
 
