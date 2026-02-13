@@ -1,5 +1,5 @@
 name: Request Membership
-description: Apply to join Pompeu Quantitative Economics
+description: Apply to join Pompeu Quantitative Finance
 title: "Membership Request"
 labels: ["membership", "pending-review"]
 body:
@@ -54,7 +54,7 @@ body:
     id: motivation
     attributes:
       label: Why join / Motivation
-      placeholder: "Tell us why you want to join PQE"
+      placeholder: "Tell us why you want to join PQF"
     validations:
       required: true
 
