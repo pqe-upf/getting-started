@@ -8,7 +8,7 @@ This short guide covers the basics you need to join the PQF GitHub community and
 
 PQF is open to students taking or planning to take the Advanced Quantitative Methods Program (MQA) at UPF.
 
-**Not yet a member?** [Request membership here](https://github.com/pqe-upf/getting-started/issues/new?template=membership_application.yml).
+**Not yet a member?** [Request membership here](https://github.com/pqf-upf/getting-started/issues/new?template=membership_application.yml).
 
 ---
 
@@ -202,7 +202,7 @@ Always work in a virtual environment. Never install packages globally.
 
 ### Discussions
 
-Questions, ideas, and conversations are encouraged to happen in [GitHub Discussions](https://github.com/orgs/pqe-upf/discussions).
+Questions, ideas, and conversations are encouraged to happen in [GitHub Discussions](https://github.com/orgs/pqf-upf/discussions).
 
 - **Q&A**
 - **Ideas** — Propose new projects, events, or improvements
@@ -212,4 +212,4 @@ Before posting, search to see if your question has been answered.
 
 ---
 
-**Questions?** Open a thread in [Discussions](https://github.com/orgs/pqe-upf/discussions) or reach out to any organization member.
+**Questions?** Open a thread in [Discussions](https://github.com/orgs/pqf-upf/discussions) or reach out to any organization member.
